@@ -1,0 +1,22 @@
+
+
+  Products API test
+    GET
+      ✔ devuelve un mensaje en caso de que no exista el producto (105ms)
+      ✔ devuelve todos los productos si no se pasa un id
+      ✔ devuelve un producto si coincide el id
+    POST
+      ✔ devuelve un mensaje si no se pasa el producto
+      ✔ devuelve el id del producto creado (39ms)
+    PUT
+      ✔ devuelve un mensaje en caso de no mandar un ID
+      ✔ devuelve un mensaje en caso de que no exista el producto
+      ✔ devuelve el producto actulizado y un flag de que se realizó
+    DELETE
+      ✔ devuelve un mensaje en caso de no mandar un ID
+      ✔ devuelve un mensaje en caso de que no exista el producto (347ms)
+      ✔ devuelve el producto actulizado y un flag de que se realizó (583ms)
+
+
+  11 passing (1s)
+

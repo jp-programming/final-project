@@ -24,7 +24,7 @@ const register = async ctx => {
 };
 
 const registerAuth = ctx => passport.authenticate('register', 
-    { failureRedirect: '/app/register-error', successRedirect: '/app/login' })(ctx);
+    { failureRedirect: '/app/register-error', successRedirect: '/app/logout' })(ctx);
 
 const registerError = async ctx => await ctx.render('register-error.ejs');
 

@@ -6,6 +6,13 @@ Click the following links to use the Heroku app:
 * [Info](https://jp-nodejs.herokuapp.com/info)
 * [Random Numbers](https://jp-nodejs.herokuapp.com/api/randoms)
 
+# Start local app command
+
+To run server with node on mode fork or cluster:
+```
+$ node server.js -p [PORT] --mode [FORK || CLUSTER]
+```
+
 # Test command
 
 This command bash runs products API test and creates a report of output.

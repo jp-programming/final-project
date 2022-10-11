@@ -23,7 +23,7 @@ passport.use('register', new LocalStrategy(
                 address,
                 phone,
                 email
-            } = ctx.request.body;
+            } = ctx.body;
 
             sendRegisterEmail(userInfo);
 
